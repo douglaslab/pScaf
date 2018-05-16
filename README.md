@@ -11,12 +11,16 @@ The txt files contain the scaffold sequences used in our manuscript DNA origami 
 The common fixed region of the scaffolds is 393 bases long:
 
 ```
-GGATCCACGCGCCCTGTAGCGGCGCATTAAGCGCGGCGGGTGTGGTGGTTACGCGCAGCGTGACCGCTACACTTGCCAGCGCCCTAGCGCCCGCTCCTTTCGCTTTCTTCCCTTCCTTTCTCGCCACGTTCGCCGGCTTTCCCCGTCAAGCTCTAAATCGGGGGCTCCCTTTAGGGTTCCGATTTAGTGCTTTACGGCACCTCGACCCCAAAAAACTTGATTTGGGTGATGGTTCACGTAGTGGGCCATCGCCCTGATAGACGGTTTTTCGCCCTTTGACGTTGGAGTCCACGTTCTTTAATAGTGGACTCTTGTTCCAAACTGGAACAACACTCAACCCTATCTCGGGCTATTCTTTTGATTTATAAGGGATTTTGCCGATTTCGGGGTACC
+GGATCCACGCGCCCTGTAGCGGCGCATTAAGCGCGGCGGGTGTGGTGGTTACGCGCAGCGTGACCGCTACACTTGCCAGC
+GCCCTAGCGCCCGCTCCTTTCGCTTTCTTCCCTTCCTTTCTCGCCACGTTCGCCGGCTTTCCCCGTCAAGCTCTAAATCG
+GGGGCTCCCTTTAGGGTTCCGATTTAGTGCTTTACGGCACCTCGACCCCAAAAAACTTGATTTGGGTGATGGTTCACGTA
+GTGGGCCATCGCCCTGATAGACGGTTTTTCGCCCTTTGACGTTGGAGTCCACGTTCTTTAATAGTGGACTCTTGTTCCAA
+ACTGGAACAACACTCAACCCTATCTCGGGCTATTCTTTTGATTTATAAGGGATTTTGCCGATTTCGGGGTACC
 ```
 
 The scaffold sequences have been adjusted so the fixed region is at the beginning.
 
-Our staples were exported scaffolds that were permuted such that the first `299` bases that the first bases are `AATAGTGGACTC...`. For those who wish to reproduce the staple sequences in our manuscript, we have provided the appropriate input scaffolds in the `permuted` subfolder, and included `-299` in the filename.
+For those who wish to reproduce the staple sequences in our manuscript, we have provided alternate versions of each scaffold sequence in the `permuted` subfolder. This is because we originally exported our staples using sequences that were permuted by `299` bases, such that the first bases applied at the 5' scaffold breakpoint were `AATAGTGGACTC...`.
 
 ## 3. Cadnano designs
 
