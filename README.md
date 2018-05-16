@@ -6,7 +6,11 @@ Empty vector (pScaf.dna) and vectors with inserts to create designated scaffolds
 
 ## 2. Scaffold sequences
 
-The txt files contain the scaffold sequences used in our manuscript DNA origami designs. The files are named `pScaf-[insert length].[variant].txt`, where the insert length is the full length of the scaffold, and the variant is an integer. Here, all are the variant `1`, but future pScaf-derived scaffolds of the similar lengths can be named sequentially).
+The txt files contain the scaffold sequences used in our manuscript DNA origami designs.
+
+The files are named `pScaf-[insert length].[variant].txt`, where the insert length is the full length of the scaffold, and the variant is some unique identifier.
+
+Here, all scaffolds are named variant `1`, and future pScaf-derived scaffolds of the similar length can be named sequentially.
 
 The common fixed region of the scaffolds is 393 bases long:
 
